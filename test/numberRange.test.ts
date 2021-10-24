@@ -7,7 +7,7 @@ test("number test", () => {
     expect(value).toBeLessThanOrEqual(4.5) // 보다 작거나 같은가?
 
     expect(value).toBe(4)
-    console.log("검증 완료")
+    console.log("number test 검증 완료")
 })
 
 // 테스트를 그룹핑
@@ -43,6 +43,5 @@ describe("number range test", () => {
     test("value is equal 4", () => {
         expect(targetValue).toBe(4)
     })
-
 
 })
